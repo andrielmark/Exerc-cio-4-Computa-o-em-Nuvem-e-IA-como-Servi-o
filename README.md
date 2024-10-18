@@ -1,0 +1,1 @@
+# Exerc-cio-4-Computa-o-em-Nuvem-e-IA-como-Servi-o
