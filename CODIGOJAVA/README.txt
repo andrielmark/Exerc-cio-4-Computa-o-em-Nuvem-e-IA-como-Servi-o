@@ -1,0 +1,7 @@
+Este projeto é uma aplicação Java que utiliza o Azure Computer Vision para analisar imagens. A aplicação envia a URL de uma imagem ao serviço de Computer Vision e recebe uma descrição detalhada do conteúdo da imagem. O código define a chave de API e o endpoint do serviço Azure Computer Vision, que são necessários para autenticar as requisições.
+
+A aplicação possui uma função chamada analyzeImage que cria uma requisição HTTP do tipo POST para o endpoint de análise de imagem. Essa função envia a URL da imagem em formato JSON e recebe a resposta do serviço, que inclui uma descrição da imagem e outras informações relevantes. Após receber a resposta, a aplicação imprime a descrição e outros dados sobre a imagem no console.
+
+Para utilizar esta aplicação, é necessário substituir URL_DA_IMAGEM no código pela URL de uma imagem acessível publicamente que você deseja analisar. Em seguida, compile o código utilizando um ambiente Java compatível e execute a aplicação no terminal. Após a execução, verifique a saída no console para ver a descrição da imagem e outros dados retornados pelo serviço.
+
+Este projeto utiliza a biblioteca Apache HttpClient para facilitar a realização de requisições HTTP. Certifique-se de que a biblioteca esteja incluída no seu classpath ao compilar o código. A chave de API e o endpoint devem ser mantidos em segurança e não devem ser compartilhados publicamente.
